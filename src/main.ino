@@ -431,6 +431,10 @@ void loop() {
     Serial.println(analogRead(2));
     Serial.print("ana4= ");
     Serial.println(analogRead(3));
+    Serial.print("Bat= ");
+    Serial.println(analogRead(14));
+    MySerial.print("Bat= ");
+    MySerial.println(analogRead(14));
   }  
 
 }
